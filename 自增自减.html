@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+/*        var num = 5;
+//
+//    //后置自增：先返回结果5，再自增
+        console.log(num++);     //5
+//
+//    //先自增6，在返回结果6
+	    console.log(++num);    //7
+//
+//
+//    //先自减 num:4   再返回：4
+       console.log(--num);//4
+//
+//    //先返回4，再自减num:3
+	   console.log(num--);//
+//
+       console.log(num);*/
+
+
+    //  a = 3           2     3
+    var a = 1; var b = ++a + ++a; console.log(b);//4  5  5
+
+    //    3             1     3
+    var a = 1; var b = a++ + ++a; console.log(b);//3  3  4
+
+    //    3             1     2
+    var a = 1; var b = a++ + a++; console.log(b);//2  3  3
+
+    //    3             2     2
+    var a = 1; var b = ++a + a++; console.log(b);//3  4  4
+
+
+</script>
+</body>
+</html>
